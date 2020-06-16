@@ -85,18 +85,18 @@ function result() {
 
     if(choices[0] == 'etnico' && choices[1] == 'romantico'){
         console.log('resultado: romantico') //ok
-        window.location.href='file:///android_asset/www/results/romantico.html'
+        window.location.href='https://danny-elvis.github.io/quiz-edi/results/romantico.html'
     }else if(choices[0] == 'etnico' && choices[1] == 'contemporaneo' && choices[2] == 'industrial'){
         console.log('resultado: industrial') //ok
-        window.location.href='file:///android_asset/www/results/industrial.html'
+        window.location.href='https://danny-elvis.github.io/quiz-edi/results/industrial.html'
     }else if(choices[0] == 'hightech' && choices[1] == 'romantico' && choices[2] == 'industrial'){
         console.log('resultado: vintage') //ok
-        window.location.href='file:///android_asset/www/results/vintage.html'
+        window.location.href='https://danny-elvis.github.io/quiz-edi/results/vintage.html'
     }else if(choices[0] == 'hightech' && choices[1] == 'romantico' && choices[2] == 'minimalista'){
         console.log('resultado: minimalista') //ok
-        window.location.href='file:///android_asset/www/results/minimalista.html'
+        window.location.href='https://danny-elvis.github.io/quiz-edi/results/minimalista.html'
     }else if(choices[0] == 'etnico' || choices[0] == 'hightech' && choices[1] == 'contemporaneo'){
         console.log('resultado: contemporaneo') //ok
-        window.location.href='file:///android_asset/www/results/contemporaneo.html'
+        window.location.href='https://danny-elvis.github.io/quiz-edi/results/contemporaneo.html'
     }
 }
