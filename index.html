@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/quiz.js"></script>
+    <title>Arquitetura</title>
+</head>
+
+<body>
+    <section class="home">
+        <div class="titulo">
+            <h1>Descubra seu estilo de arquitetura</h1>
+        </div>
+
+        <div class="quiz">
+
+            <div class="text-quiz">
+                <p><b>Qual você prefere? </b></p>
+            </div>
+
+            <div class="choices">
+                <label id="1">
+                    <input type="radio" name="choice" value="etnico" onclick="setChoice()">
+                    <img src="images/quiz/etnico.jpg">
+                </label>
+
+                <label id="2">
+                    <input type="radio" name="choice" value="hightech" onclick="setChoice()">
+                    <img src="images/quiz/hightech.jpg">
+                </label>
+            </div>
+            <div class="buttons">
+                <input class="voltar--hide" id="voltar" type="button" value="Voltar" onclick="back()">
+                <input class="avancar" id="avancar" type="button" value="Avançar" onclick="next()" disabled="true">
+            </div>
+
+        </div>
+    </section>
+
+
+
+    
+</body>
+
+</html>
